@@ -50,7 +50,7 @@ export default function NavBar() {
     >
       <div className="mx-auto flex min-h-[72px] max-w-7xl flex-wrap items-center justify-between gap-4 px-4 py-4 sm:px-6">
         <a
-          href="/"
+          href={import.meta.env.BASE_URL}
           className="flex items-center gap-3 rounded-sm focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#b33a00]"
           onClick={() => setMenuOpen(false)}
         >
